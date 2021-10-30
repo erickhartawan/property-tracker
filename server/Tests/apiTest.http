@@ -1,0 +1,7 @@
+POST http://localhost:5000/api
+content-Type: application/json
+
+{
+    "suburb": "YAGOONA",
+    "addrs": [["27" ,"Bamfield Ave"]]
+}

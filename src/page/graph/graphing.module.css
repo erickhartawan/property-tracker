@@ -1,0 +1,32 @@
+.tick line {
+    stroke:rgb(170, 170, 170);
+}
+
+.tick text {
+   fill: rgb(78, 78, 78); 
+}
+
+.mark {
+    fill: rgb(54, 179, 141);
+}
+
+.axisLabelX{
+    font-size: 1.8em;
+    fill: rgb(78, 78, 78);  
+}
+
+.axisLabelY{
+    font-size: 1.8em;
+    fill: rgb(78, 78, 78);  
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.title{
+    font-size: 2.5em;
+    fill: rgb(78, 78, 78);  
+}
+
+.line {
+    stroke:rgb(0, 0, 0);
+}

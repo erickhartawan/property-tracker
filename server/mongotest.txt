@@ -1,0 +1,4 @@
+usser admin 
+pass admin
+
+mongodb+srv://admin:admin@propertytracker.sivlt.mongodb.net/saleshistory?retryWrites=true&w=majority

@@ -1,0 +1,133 @@
+{
+    "plus_code": {
+        "compound_code": "64G7+GC Macquarie Park NSW, Australia",
+        "global_code": "4RRH64G7+GC"
+    },
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "192",
+                    "short_name": "192",
+                    "types": ["street_number"]
+                },
+                {
+                    "long_name": "Balaclava Road",
+                    "short_name": "Balaclava Rd",
+                    "types": ["route"]
+                },
+                {
+                    "long_name": "Macquarie Park",
+                    "short_name": "Macquarie Park",
+                    "types": ["locality", "political"]
+                },
+                {
+                    "long_name": "City of Ryde",
+                    "short_name": "City of Ryde",
+                    "types": ["administrative_area_level_2", "political"]
+                },
+                {
+                    "long_name": "New South Wales",
+                    "short_name": "NSW",
+                    "types": ["administrative_area_level_1", "political"]
+                },
+                {
+                    "long_name": "Australia",
+                    "short_name": "AU",
+                    "types": ["country", "political"]
+                },
+                {
+                    "long_name": "2113",
+                    "short_name": "2113",
+                    "types": ["postal_code"]
+                }
+            ],
+            "formatted_address": "192 Balaclava Rd, Macquarie Park NSW 2113, Australia",
+            "geometry": {
+                "location": {
+                    "lat": -33.7736235,
+                    "lng": 151.1132503
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": -33.7722745197085,
+                        "lng": 151.1145992802915
+                    },
+                    "southwest": {
+                        "lat": -33.7749724802915,
+                        "lng": 151.1119013197085
+                    }
+                }
+            },
+            "place_id": "ChIJjXwsHXemEmsR2lbmmvNpA4A",
+            "plus_code": {
+                "compound_code": "64G7+H8 Macquarie Park NSW, Australia",
+                "global_code": "4RRH64G7+H8"
+            },
+            "types": ["street_address"]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "16",
+                    "short_name": "16",
+                    "types": ["street_number"]
+                },
+                {
+                    "long_name": "Wally's Walk",
+                    "short_name": "Wally's Walk",
+                    "types": ["route"]
+                },
+                {
+                    "long_name": "Macquarie Park",
+                    "short_name": "Macquarie Park",
+                    "types": ["locality", "political"]
+                },
+                {
+                    "long_name": "City of Ryde",
+                    "short_name": "City of Ryde",
+                    "types": ["administrative_area_level_2", "political"]
+                },
+                {
+                    "long_name": "New South Wales",
+                    "short_name": "NSW",
+                    "types": ["administrative_area_level_1", "political"]
+                },
+                {
+                    "long_name": "Australia",
+                    "short_name": "AU",
+                    "types": ["country", "political"]
+                },
+                {
+                    "long_name": "2113",
+                    "short_name": "2113",
+                    "types": ["postal_code"]
+                }
+            ],
+            "formatted_address": "16 Wally's Walk, Macquarie Park NSW 2113, Australia",
+            "geometry": {
+                "location": {
+                    "lat": -33.7744153,
+                    "lng": 151.1137707
+                },
+                "location_type": "RANGE_INTERPOLATED",
+                "viewport": {
+                    "northeast": {
+                        "lat": -33.77306631970851,
+                        "lng": 151.1151196802915
+                    },
+                    "southwest": {
+                        "lat": -33.7757642802915,
+                        "lng": 151.1124217197085
+                    }
+                }
+            },
+            "place_id": "EjMxNiBXYWxseSdzIFdhbGssIE1hY3F1YXJpZSBQYXJrIE5TVyAyMTEzLCBBdXN0cmFsaWEiGhIYChQKEgl3kNVFcqYSaxHLIarsBX8VexAQ",
+            "types": ["street_address"]
+        }
+    ],
+    "status": "OK"
+}
+
+https://maps.googleapis.com/maps/api/geocode/json?latlng=-33.86902873,151.2045355&result_type=street_address&key=AIzaSyC8Gs-iLoaDOrp4W5I5oYaeXJ7rzxk--Mg

@@ -1,0 +1,89 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+.overlay {
+    height: 50%;
+    width: 30%;
+    max-width: 300px;
+    top: 30%;
+    left: 1%;
+    background: whitesmoke;
+    position: absolute;
+    z-index: 9999;
+}
+.overlayInner {
+    padding: 2em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.searchContainer {
+    flex: 1;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    margin-left: 29vw;
+    margin-right: 29vw;
+    margin-top: -30vh;
+    width: 42vw;
+    height: 17vh;
+    opacity: 87%;
+    border-radius: 4px;
+}
+.searchContainerText {
+    color: white;
+    font-size: 2vh;
+    z-index: 2;
+    margin-left: 2vh;
+    margin-top: 0.5vh;
+
+}
+.searchContainerActiveState {
+    position: absolute;
+    background-color:red;
+    font-size: 2vh;
+    z-index: 3;
+    width: 6vw;
+    height: 4vh;
+    margin-top: -26vh;
+    margin-left: 30vw;
+    margin-right:30vw;
+    opacity: 100%;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 3px;
+    text-align:center;
+}
+.activeStateText{
+    color:white;
+    font-size:2vh;
+    text-align: center;
+}
+
+.side {
+    flex: 1;
+    position: absolute;
+    background-color: tomato;
+    margin-top:80vh;
+    height: 100vh;
+    z-index: 1;
+}
+
+.map {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+

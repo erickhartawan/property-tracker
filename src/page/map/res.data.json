@@ -1,0 +1,131 @@
+{
+    "plus_code": {
+        "compound_code": "64G7+FG Macquarie Park NSW, Australia",
+        "global_code": "4RRH64G7+FG"
+    },
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "16",
+                    "short_name": "16",
+                    "types": ["street_number"]
+                },
+                {
+                    "long_name": "Wally's Walk",
+                    "short_name": "Wally's Walk",
+                    "types": ["route"]
+                },
+                {
+                    "long_name": "Macquarie Park",
+                    "short_name": "Macquarie Park",
+                    "types": ["locality", "political"]
+                },
+                {
+                    "long_name": "City of Ryde",
+                    "short_name": "City of Ryde",
+                    "types": ["administrative_area_level_2", "political"]
+                },
+                {
+                    "long_name": "New South Wales",
+                    "short_name": "NSW",
+                    "types": ["administrative_area_level_1", "political"]
+                },
+                {
+                    "long_name": "Australia",
+                    "short_name": "AU",
+                    "types": ["country", "political"]
+                },
+                {
+                    "long_name": "2113",
+                    "short_name": "2113",
+                    "types": ["postal_code"]
+                }
+            ],
+            "formatted_address": "16 Wally's Walk, Macquarie Park NSW 2113, Australia",
+            "geometry": {
+                "location": {
+                    "lat": -33.7743192,
+                    "lng": 151.1137701
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": -33.7729702197085,
+                        "lng": 151.1151190802915
+                    },
+                    "southwest": {
+                        "lat": -33.7756681802915,
+                        "lng": 151.1124211197085
+                    }
+                }
+            },
+            "place_id": "ChIJ9SRBDHanEmsRai1UcYgWzvQ",
+            "plus_code": {
+                "compound_code": "64G7+7G Macquarie Park NSW, Australia",
+                "global_code": "4RRH64G7+7G"
+            },
+            "types": ["street_address"]
+        },
+        {
+            "address_components": [
+                {
+                    "long_name": "14",
+                    "short_name": "14",
+                    "types": ["street_number"]
+                },
+                {
+                    "long_name": "Sir Christopher Ondaatje Avenue",
+                    "short_name": "Sir Christopher Ondaatje Ave",
+                    "types": ["route"]
+                },
+                {
+                    "long_name": "Macquarie Park",
+                    "short_name": "Macquarie Park",
+                    "types": ["locality", "political"]
+                },
+                {
+                    "long_name": "City of Ryde",
+                    "short_name": "City of Ryde",
+                    "types": ["administrative_area_level_2", "political"]
+                },
+                {
+                    "long_name": "New South Wales",
+                    "short_name": "NSW",
+                    "types": ["administrative_area_level_1", "political"]
+                },
+                {
+                    "long_name": "Australia",
+                    "short_name": "AU",
+                    "types": ["country", "political"]
+                },
+                {
+                    "long_name": "2109",
+                    "short_name": "2109",
+                    "types": ["postal_code"]
+                }
+            ],
+            "formatted_address": "14 Sir Christopher Ondaatje Ave, Macquarie Park NSW 2109, Australia",
+            "geometry": {
+                "location": {
+                    "lat": -33.7743988,
+                    "lng": 151.1144662
+                },
+                "location_type": "RANGE_INTERPOLATED",
+                "viewport": {
+                    "northeast": {
+                        "lat": -33.7730498197085,
+                        "lng": 151.1158151802915
+                    },
+                    "southwest": {
+                        "lat": -33.7757477802915,
+                        "lng": 151.1131172197085
+                    }
+                }
+            },
+            "place_id": "EkMxNCBTaXIgQ2hyaXN0b3BoZXIgT25kYWF0amUgQXZlLCBNYWNxdWFyaWUgUGFyayBOU1cgMjEwOSwgQXVzdHJhbGlhIhoSGAoUChIJs7RK8XKmEmsRRFHpEkz4uBgQDg",
+            "types": ["street_address"]
+        }
+    ],
+    "status": "OK"
+}
