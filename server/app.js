@@ -6,6 +6,7 @@ const { default: axios } = require("axios")
 const { SystemUpdate } = require("material-ui-icons")
 
 const app = express()
+app.use(express.static("build"))
 app.use(express.json())
 app.use(cors())
 
