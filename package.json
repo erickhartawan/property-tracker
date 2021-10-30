@@ -1,5 +1,5 @@
 {
-    "name": "GroupK",
+    "name": "PropertyTracker",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -11,6 +11,7 @@
         "axios": "^0.22.0",
         "clsx": "^1.1.1",
         "cors": "^2.8.5",
+        "concurrently": "6.3.0",
         "cross-env": "^7.0.3",
         "dotenv": "^10.0.0",
         "express": "^4.17.1",
@@ -35,8 +36,9 @@
         "yup": "^0.32.9"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "serve -s build",
         "dev": "nodemon Server/server.js",
+        "server": "node server/server.js",
         "build": "react-scripts build",
         "test": "jest",
         "eject": "react-scripts eject"
