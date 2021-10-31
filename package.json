@@ -37,7 +37,7 @@
         "yup": "^0.32.9"
     },
     "scripts": {
-        "start": "concurrently \"npm run build \"\" npm run server\"",
+        "start": "concurrently \"npx serve -s build\"\" npm run server\"",
         "dev": "nodemon Server/server.js",
         "server": "node server/server.js",
         "build": "react-scripts build",
