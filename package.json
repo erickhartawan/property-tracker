@@ -37,9 +37,9 @@
         "yup": "^0.32.9"
     },
     "scripts": {
-        "start": "concurrently \"serve -s build\"\" npm run server\"",
+        "start": "concurrently \"serve -s build\" \" npm run server\"",
         "dev": "nodemon Server/server.js",
-        "heroku-postbuilt": "npm install -g serve",
+        "heroku-prebuild": "npm install -g serve",
         "server": "node server/server.js",
         "build": "react-scripts build",
         "test": "jest",
