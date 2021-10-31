@@ -1,1 +1,1 @@
-web: concurrently \"serve -s build\"\" npm run server\"
+web: npm start
