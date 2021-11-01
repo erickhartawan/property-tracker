@@ -4,7 +4,10 @@
     "description": "",
     "main": "server/server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "concurrently \"cd client && npm start\" \" npm run server\"",
+        "heroku-postbuild": "cd client && npm run build",
+        "heroku-prebuild": "npm install -g serve ",
+        "server": "node server/server.js"
     },
     "repository": {
         "type": "git",
@@ -18,6 +21,7 @@
     "homepage": "https://github.com/erickhartawan/property-tracker#readme",
     "dependencies": {
         "concurrently": "^6.3.0",
+        "cors": "^2.8.5",
         "express": "^4.17.1"
     }
 }

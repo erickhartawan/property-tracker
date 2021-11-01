@@ -1,7 +1,6 @@
 // Basic router
 const express = require("express")
 const cors = require("cors")
-const jsonServer = require("json-server")
 const { default: axios } = require("axios")
 const { SystemUpdate } = require("material-ui-icons")
 
