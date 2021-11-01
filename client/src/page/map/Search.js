@@ -84,7 +84,7 @@ const Search = (props) => {
                     //default values set
                     props.setPrice("N/A")
                     props.setNumSold("N/A")
-                    props.setApiResponse({data:[]})
+                    props.setApiResponse({ data: [] })
                     SendAPI(pos)
                 }}
                 options={{
